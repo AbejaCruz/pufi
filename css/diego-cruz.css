@@ -1,0 +1,436 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header .navbar .nav-item:nth-child(2) {
+    margin-right: 40px;
+    border-left: 1px solid white;
+}
+
+header .navbar .nav-item.cuenta {
+    border-right: 1px solid white;
+}
+
+header .navbar .nav-item .nav-link {
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.slider {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.btn-s{
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.014)
+}
+
+
+.slider .fondo-slider {
+    position: absolute;
+    top: 7%;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    background-color: transparent;
+    width: 100%;
+}
+
+.slider .fondo-slider .tipos ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.slider .fondo-slider .tipos ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 0.5px solid white;
+}
+
+.slider .fondo-slider .tipos figure {
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+
+.slider .fondo-slider .tipos figcaption {
+    color: white;
+}
+
+.slider .fondo-slider .texto {
+    margin-top: 100px;
+    font-size: 70px;
+}
+
+.slider .fondo-slider button {
+    margin-top: 220px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 50px;
+    font-weight: 100px;
+}
+/* SecciÃ³n Productos*/
+
+.productos {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    transform: translateY(-0.7%);
+}
+
+.productos .ct {
+    width: 100%;
+    max-height: 580px;
+}
+
+.productos figure {
+    background-size: cover;
+}
+
+.productos .button-shop {
+    position: absolute;
+    top: 45%;
+    bottom: 45%;
+    left: 40%;
+    right: 40%;
+    background: transparent;
+    z-index: 10;
+}
+
+.productos .button-shop button {
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 30px;
+}
+
+.productos .imagen img {
+    width: 100%;
+    height: 600px;
+    padding: 0;
+}
+
+.productos .texto {
+    background: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+/*  .productos .bg-gray {
+    background: #F0F0F0;
+} */
+
+.productos .texto .info {
+    margin-top: 150px;
+}
+
+.productos .info .cuadro1 {
+    position: absolute;
+    top: 48%;
+    left: -2%;
+    width: 40px;
+    height: 40px;
+    background: white;
+    z-index: 10;
+    transform: rotate(45deg);
+}
+
+.productos .info .cuadro2 {
+    position: absolute;
+    top: 48%;
+    right: -2%;
+    width: 40px;
+    height: 40px;
+    background: white;
+    z-index: 10;
+    transform: rotate(45deg);
+}
+
+.productos .texto .info h2 {
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+
+/*Espufi*/
+
+.espufi h5 {
+    color: gray;
+    font-size: 1em;
+}
+
+.espufi .galeria {
+    margin: 0;
+    padding: 0;
+}
+
+.espufi figure {
+    width: 100%;
+    height: 243px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.espufi figure img {
+    width: 100%;
+}
+/*Newsletter*/
+
+.newsletter h1,
+.newsletter h5,
+.newsletter p {
+    margin: 0;
+    padding: 0;
+}
+
+.newsletter h5 {
+    color: gray;
+    font-size: 1em;
+}
+
+.formulario .form-control {
+    border: 1px solid black;
+}
+
+.formulario button {
+    border-radius: 0px;
+}
+/*Footer*/
+
+.footer {
+    box-shadow: 0px -5px 9px 0px rgba(194, 188, 194, 1);
+}
+
+footer ul li {
+    list-style: none;
+    color: black;
+}
+
+.footer p,
+.footer li a {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    font-weight: 600;
+    color: black;
+}
+
+footer .redes p {
+    font-size: 1.2em;
+}
+
+footer .redes p a {
+    color: black;
+}
+
+footer .terminos {
+    box-shadow: 0px -2px 3px 0px rgba(194, 188, 194, 1);
+}
+
+footer .terminos p {
+    font-size: 0.8em;
+}
+
+@media screen and (max-width:1300px) {
+    .slider .fondo-slider .texto {
+        margin-top: 80px;
+        font-size: 40px;
+    }
+    .espufi figure {
+        width: 100px;
+        height: 100px;
+        margin: 0;
+        overflow: hidden;
+    }
+    .slider .fondo-slider button {
+        margin-top: 100px;
+    }
+    .productos {
+        transform: translateY(-0.9%);
+    }
+    .productos .imagen img {
+        height: 500px;
+    }
+    .productos .texto {
+        height: 500px;
+    }
+    .productos .ct {
+        height: 500px;
+    }
+    .productos .texto .info {
+        margin-top: 120px;
+    }
+    .espufi figure {
+        width: 100%;
+        height: 243px;
+        margin: 0;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .slider .fondo-slider .texto {
+        margin-top: 60px;
+        font-size: 35px;
+    }
+    .slider .fondo-slider button {
+        margin-top: 150px;
+    }
+    .slider .fondo-slider button {
+        margin-top: 60px;
+        padding: 5px 20px;
+        font-size: 1em;
+    }
+    .productos {
+        transform: translateY(-1.1%);
+    }
+    .productos .imagen img {
+        height: 400px;
+    }
+    .productos .texto {
+        height: 400px;
+    }
+    .productos .ct {
+        height: 400px;
+    }
+    .productos .texto .info {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    header .navbar .nav-item:nth-child(2) {
+        margin-right: 0px;
+        border-left: 0px solid white;
+    }
+    header .navbar .nav-item {
+        text-align: center;
+    }
+    .slider .fondo-slider .tipos figure img {
+        width: 15px;
+    }
+    .slider .fondo-slider .tipos figcaption {
+        font-size: 10px;
+    }
+    .slider .fondo-slider .texto {
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    .slider .fondo-slider .tipos ul {
+        margin-top: 20px;
+    }
+    .slider .fondo-slider button {
+        margin-top: 60px;
+        padding: 5px 20px;
+        font-size: 1em;
+    }
+    .productos .imagen img {
+        height: 300px;
+    }
+    .productos .texto {
+        height: 300px;
+    }
+    .productos .ct {
+        height: 300px;
+    }
+    .productos .texto .info {
+        margin-top: 20px;
+    }
+    .productos .texto .info h2 {
+        font-size: 1.2em;
+    }
+    .productos .texto .info p {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .slider .fondo-slider .tipos figure img {
+        width: 8px;
+    }
+    .slider .fondo-slider .tipos figcaption {
+        font-size: 5px;
+    }
+    .slider .fondo-slider .texto {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .slider .fondo-slider .tipos ul {
+        margin-top: 20px;
+    }
+    .slider .fondo-slider button {
+        margin-top: 10px;
+        padding: 5px 10px;
+        font-size: 0.8em;
+    }
+    .owl-carousel .owl-dots {
+        right: 40%;
+        z-index: 11;
+    }
+    .productos .imagen img {
+        height: 400px;
+    }
+    .productos .texto {
+        height: 400px;
+    }
+    .productos .ct {
+        height: 400px;
+    }
+    .productos .texto .info {
+        margin-top: 40px;
+    }
+    .productos .texto .info h2 {
+        font-size: 1.2em;
+    }
+    .productos .texto .info p {
+        font-size: 0.8em;
+    }
+    .productos .info .cuadro1 {
+        position: absolute;
+        top: 95%;
+        left: 45%;
+        right: 45%;
+    }
+    .productos .info .cuadro2 {
+        position: absolute;
+        top: 95%;
+        left: 45%;
+        right: 45%;
+    }
+}
+
+.error {
+    background-color: #FBE9E7;
+    border: 1px solid #F4511E;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #F4511E;
+}
+
+.correcto {
+    background-color: rgb(211, 249, 187);
+    border: 1px solid rgb(50, 167, 0);
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(4, 150, 50);
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 100%;
+    margin-top: 0px !important;
+  }
+  .carousel-caption {
+      top:35%;
+  }
