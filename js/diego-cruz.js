@@ -4,12 +4,12 @@ divGaleria = document.querySelector('.galeria');
 
     var lista = "";
     var enlace = new Array();
-    enlace[0] = (new Image()).src = "../images/1.jpg";
-    enlace[1] = (new Image()).src = "../images/2.jpg";
-    enlace[2] = (new Image()).src = "../images/3.jpg";
-    enlace[3] = (new Image()).src = "../images/4.jpg";
-    enlace[4] = (new Image()).src = "../images/5.jpg";
-    enlace[5] = (new Image()).src = "../images/6.jpg";
+    enlace[0] = (new Image()).src = ".././images/1.jpg";
+    enlace[1] = (new Image()).src = ".././images/2.jpg";
+    enlace[2] = (new Image()).src = ".././images/3.jpg";
+    enlace[3] = (new Image()).src = ".././images/4.jpg";
+    enlace[4] = (new Image()).src = ".././images/5.jpg";
+    enlace[5] = (new Image()).src = ".././images/6.jpg";
 
     while ((enlace.length) > 0) {
         var indice = Math.floor(Math.random() * enlace.length);
